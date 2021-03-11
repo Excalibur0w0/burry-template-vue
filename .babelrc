@@ -1,0 +1,13 @@
+{
+    "presets": [
+        [ "env", {
+          "targets": {
+            "chrome": 80 // 目标运行平台为chrome 80
+          },
+          "modules": false,// 不转换模块
+          "useBuiltIns": true,// 使用polyfill
+          "debug": true 
+        }],
+        ["@vue/babel-preset-jsx"]
+    ]
+}
